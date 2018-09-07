@@ -1,0 +1,17 @@
+/bin/
+.classpath
+/.gradle/
+/.project
+/.settings/
+/build/
+/bootstrap/.gradle/
+/out/
+.sonar/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+/**/.DS_store
