@@ -7,10 +7,16 @@ server:
 spring:
   cloud:
     config:
-    discovery:
+      discovery:
         enabled: true
       server:
-        encrypt.enabled: false
+        encrypt:
+          enabled: false
         git:
-          uri: https://github.com/springbokdev/config-repo/
+          uri: https://github.com/springbokdev/config-repo.git
           #searchPaths: service_a, service_b
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
