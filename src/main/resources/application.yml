@@ -14,7 +14,7 @@ spring:
           enabled: false
         git:
           uri: https://github.com/springbokdev/config-repo.git
-          #searchPaths: service_a, service_b
+          #searchPaths: service_a, service_b, service_c
 
 eureka:
   client:
